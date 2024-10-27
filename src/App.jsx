@@ -10,9 +10,8 @@ function App() {
 
   return (
     <>
-    hello renderings is rendering.
-    <Hero />
     <Navbar />
+    <Hero />
     </>
   )
 }

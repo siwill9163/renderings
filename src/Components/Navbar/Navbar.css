@@ -1,3 +1,30 @@
-*{
-    color: pink;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+.logo{
+    background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    min-width: 320px;
+}
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
+}
+.nav-menu li{
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+   background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }

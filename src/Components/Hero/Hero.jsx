@@ -4,8 +4,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <div className='hero'>
-        This is my hero
-        checkings
+        Checkings... Hero.
     </div>
   )
 }
