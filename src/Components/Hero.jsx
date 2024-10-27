@@ -4,6 +4,7 @@ const Hero = () => {
   return (
     <div>
         This is my hero
+        checkings
     </div>
   )
 }
