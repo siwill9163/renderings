@@ -10,11 +10,9 @@ const Navbar = () => {
         </div>
 
         <div className="nav-menu">
-            <ul>
-                <li>Send</li>
-                <li>Rules</li>
-                <li>Contact</li>
-            </ul>
+            <button>Contact</button>
+                
+            
         </div>
 
         

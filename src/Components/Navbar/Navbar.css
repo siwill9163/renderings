@@ -2,29 +2,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 100px;
+    margin: 40px 100px;
 }
 .logo{
-    background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
+    background: linear-gradient(#403b4a, #e7e9bb, #403b4a);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     min-width: 320px;
 }
-.nav-menu ul{
+.nav-menu{
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 80px;
     font-size: 20px;
+    margin-right: 30px;
 }
-.nav-menu li{
-   cursor: pointer;
-   display: flex;
-   flex-direction: column;
-   gap: 5px;
+.nav-menu button{
+    padding: 10px 40px;
+    border-radius: 20px 0px 20px 0px;
+    background: linear-gradient(#403b4a, #e7e9bb, #403b4a);
+    transition: 0.3s;
+    cursor: pointer;
 
-   background: linear-gradient(267deg, #403b4a, #e7e9bb, #403b4a);
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
 }
+.nav-menu button:hover{
+    transform: scale(1.15);
+}
+
+
