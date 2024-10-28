@@ -50,3 +50,17 @@ a:hover{
 span{
     color: #e7e9bb;
 }
+@media(max-width: 771px){
+    .contact{
+        padding: 20px 70px;
+    }
+}
+@media(max-width: 400px){
+    .contact{
+        padding: 20px;
+    }
+    .contact-bottom-right{
+        display: none;
+    }
+    
+}

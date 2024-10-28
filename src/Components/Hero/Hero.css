@@ -11,8 +11,8 @@ body{
     align-items: center;
     margin: 80px 100px;
 }
-.hero-title{
-    font-size: 25px;
+.hero-title h1{
+    font-size: 35px;
     background: linear-gradient(#403b4a, #e7e9bb, #403b4a);
     background-clip: text;
     -webkit-background-clip: text;
@@ -70,7 +70,7 @@ body{
 }
 .hero-rules{
     margin: 40px 0px;
-    max-width: 580px;
+    /* max-width: 580px; */
     line-height: 25px;
 }
 .hero-rules li{
@@ -78,6 +78,39 @@ body{
     color: #e7e9bb;
     font-weight: 300;
     font-size: 16px;
+}
+
+@media(max-width:771px){
+    .hero-title h1{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+}
+@media(max-width:400px){
+    .hero{
+        margin: 40px;
+    }
+    .hero-title h1{
+        font-size: 24px;
+    }
+   .envelope textarea{
+    width: 260px;
+   }
+   .envelope input{
+    width: 280px;
+   }
+   .submit-btn{
+    width: 250px ;
+   }
+   .hero-rules{
+    margin: 40px 0px;
+   
+    line-height: 25px;  
+    }
+    .hero-rules li{
+        font-size: 10px;
+    };
+ 
 }
 
 

@@ -4,19 +4,12 @@
     align-items: center;
     margin: 40px 100px;
 }
-.logo{
+.logo h1{
+    font-size: 35px;
     background: linear-gradient(#403b4a, #e7e9bb, #403b4a);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    min-width: 320px;
-}
-.nav-menu{
-    display: flex;
-    list-style: none;
-    gap: 80px;
-    font-size: 20px;
-    margin-right: 30px;
+    -webkit-text-fill-color: transparent;   
 }
 .nav-menu button{
     padding: 10px 40px;
@@ -28,6 +21,17 @@
 }
 .nav-menu button:hover{
     transform: scale(1.15);
+}
+@media(max-width: 400px){
+    .navbar{
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+   
+    
 }
 
 
