@@ -2,6 +2,30 @@ import React from 'react'
 import './Hero.css'
 
 const Hero = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "15d81bee-3d66-44de-8d97-8289de2785f6");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message);
+    }
+  };
+
   return (
     <div className='hero'>
 
@@ -9,7 +33,7 @@ const Hero = () => {
           <h1>Send a Brown Envelope</h1>
         </div>
         
-        <form className="envelope">
+        <form onSubmit={onSubmit} className="envelope">
           <input type="email" name="email" id="" placeholder='Email of the Recipient'/>
           <input type="text" name="subject" id="" placeholder='Subject line' />
           <textarea name="message" rows={8} id="" placeholder='Write your message here'></textarea>

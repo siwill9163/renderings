@@ -52,6 +52,7 @@ body{
     background: #403b4a;
     color: #e7e9bb;
     opacity: 80%;
+    resize: none;
 }
 .submit-btn{
     width: 500px;
@@ -78,5 +79,6 @@ body{
     font-weight: 300;
     font-size: 16px;
 }
+
 
 
