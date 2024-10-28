@@ -24,7 +24,17 @@
     padding: 10px;
 }
 
-
+a{
+    text-decoration: underline;
+    color: #e7e9bb;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+a:hover{
+    transform: scale(1.05);
+    
+}
 
 
 

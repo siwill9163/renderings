@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import mail_icon from '../../assets/mail_icon.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Contact = () => {
@@ -30,8 +31,9 @@ const Contact = () => {
 
             <div className="contact-bottom-right">
                 <p>Rules</p>
-                <p>Terms</p>
-                <p>Top of page</p>
+                
+                
+                <AnchorLink className='anchor-link' href='#navbar'> <p>Back to Envelope</p> </AnchorLink> 
             </div>
         </div>
 
