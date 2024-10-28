@@ -5,7 +5,7 @@ import mail_icon from '../../assets/mail_icon.svg'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
 
         <div className="container">
 

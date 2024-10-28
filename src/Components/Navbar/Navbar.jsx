@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,8 @@ const Navbar = () => {
         </div>
 
         <div className="nav-menu">
-            <button>Contact</button>
+            <AnchorLink className='anchor-link' href='#contact'> <button>Contact</button> </AnchorLink>
+            
                 
             
         </div>
