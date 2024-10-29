@@ -44,6 +44,7 @@ const Hero = () => {
 
         <div className="hero-rules">
           <ul>
+            <li className='li-cap'>All messages will arrive from <span>hello-anonymous@outlook.com</span> - Allow 24 hours for emails to arrive</li>
             <li>Keep your subject line clear and concise to ensure your email grabs attention immediately.</li>
             <li>Address the recipient professionally and start with a friendly greeting for a positive tone.</li>
             <li>Avoid any language that could be offensive, including swearing or inappropriate humor in emails.</li>
