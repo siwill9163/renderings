@@ -52,7 +52,13 @@ span{
 }
 @media(max-width: 771px){
     .contact{
-        padding: 20px 70px;
+        padding: 0px 70px;
+    }
+}
+@media(max-width: 610px) {
+    .container{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media(max-width: 400px){
@@ -62,5 +68,4 @@ span{
     .contact-bottom-right{
         display: none;
     }
-    
 }

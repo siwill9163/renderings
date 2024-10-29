@@ -27,7 +27,7 @@ const Contact = () => {
 
         <hr />
         <div className="contact-bottom">
-            <p className="contact-subscribe">&#169; 2024 <span>Mr Limited ++</span> | All Right Recieved</p>
+            <p className="contact-subscribe">&#169; 2024 <span>Mr UnLimited ++</span> | All Right Recieved</p>
 
             <div className="contact-bottom-right">
                 <p>Rules</p>

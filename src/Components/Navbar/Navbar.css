@@ -22,16 +22,18 @@
 .nav-menu button:hover{
     transform: scale(1.15);
 }
-@media(max-width: 400px){
+@media(max-width: 771px){
     .navbar{
-        justify-content: space-between;
         margin: 20px;
     }
     .logo h1{
+        font-size: 22px;
+    }
+}
+@media(max-width: 400px){
+    .logo h1{
         font-size: 20px;
     }
-   
-    
 }
 
 
