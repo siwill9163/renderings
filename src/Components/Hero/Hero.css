@@ -67,6 +67,13 @@ body{
     background: #403b4a;
     color: #e7e9bb;
     opacity: 80%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-btn:hover{
+    background: linear-gradient(#403b4a, #e7e9bb, #403b4a);
+    /* transform: scale(1.05); */
+    color: white;
 }
 .hero-rules{
     margin: 40px 0px;
